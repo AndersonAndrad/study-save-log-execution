@@ -2,8 +2,7 @@ import 'dotenv/config';
 import Mongoose from 'mongoose';
 
 class Database {
-  constructor() {}
-  init() {
+  constructor() {
     this.mongo();
   }
 
